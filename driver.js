@@ -20,8 +20,7 @@ const app = Consumer.create({
     let parsedBody = JSON.parse(msg.Body);
     let myOrder = JSON.parse(parsedBody.Message);
     console.log(myOrder);
-    // console.log("text is =", myOrder.orderItem);
-    // console.log("store is =", myOrder.storeName);
+
     await acknowledgement();
   }
 });

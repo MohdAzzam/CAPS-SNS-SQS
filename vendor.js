@@ -25,9 +25,6 @@ setInterval(() => {
         .catch(console.error);
 }, 5000);
 
-///////////////////////////////////////////////
-
-// TODO: Poll from sqs
 
 const { Consumer } = require('sqs-consumer');
 
